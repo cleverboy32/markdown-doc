@@ -1,0 +1,30 @@
+@import "highlight.js/styles/atom-one-light.css";
+@import "github-markdown-css/github-markdown-light.css";
+
+.hljs {
+  overflow-wrap: break-word;
+  white-space: pre-wrap; /* 或者 white-space: pre-line; */
+}
+
+.markdown-toc {
+  color: #606266;
+  font-size: 14px;
+
+  a {
+    display: inline-block;
+    height: 30px;
+    padding-bottom: 8px;
+
+    &:hover {
+      color: #409EFF;
+    }
+  }
+
+  & > ul > li > a {
+    font-weight: bold;
+  }
+
+  li > ul {
+    padding-left: 14px;
+  }
+}
