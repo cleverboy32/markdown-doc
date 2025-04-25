@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // 编译目标 JavaScript 版本 
+    "module": "commonjs",           // 模块系统 
+    "strict": true,                 // 启用所有严格类型检查选项 
+    "esModuleInterop": true,        // 允许默认导入 CommonJS 模块 
+    "skipLibCheck": true,          // 跳过声明文件的类型检查 
+    "baseUrl": "./",                // 解析非相对模块名的基准目录 
+    "paths": {                      // 模块名到基于 baseUrl 的路径映射 
+      "@/*": ["src/*"]
+    },
+    "outDir": "./dist",             // 输出目录 
+    "rootDir": "./src",             // 输入文件目录 
+    "removeComments": true,         // 删除编译后的注释 
+    "types": ["global"]
+  },
+  "include": ["src/**/*"],         // 包含的文件 
+  "exclude": ["node_modules"]      // 排除的文件 
+}
