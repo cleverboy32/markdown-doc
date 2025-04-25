@@ -1,0 +1,36 @@
+{
+  "name": "markdown-lark-doc",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "preview": "cd ./preview && vite",
+    "build": "vite build"
+  },
+  "author": "cleverboy32",
+  "license": "ISC",
+  "description": "transform markdown to lark doc. esm module",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "github-markdown-css": "^5.8.1",
+    "path": "^0.12.7",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-toc-done-right": "^4.2.0"
+  }
+}
