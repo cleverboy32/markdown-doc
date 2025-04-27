@@ -9,8 +9,8 @@ const MarkdownPreview: React.FC = () => {
 
   return (
     <div className="flex w-full h-full">
-      <div dangerouslySetInnerHTML={{ __html: tocHtml }} className='w-[30%] p-10 h-full overflow-y-auto fixed' />
-      <div className='p-10 ml-[35%] overflow-y-auto h-full ' dangerouslySetInnerHTML={{ __html: mdHtml }}>
+      <div dangerouslySetInnerHTML={{ __html: tocHtml }} className='w-[25%] p-10 h-full overflow-y-auto fixed' />
+      <div className='p-10 ml-[30%] w-[50%] overflow-y-auto h-full ' dangerouslySetInnerHTML={{ __html: mdHtml }}>
       </div>
     </div>
   );

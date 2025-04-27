@@ -14,6 +14,7 @@
     display: inline-block;
     height: 30px;
     padding-bottom: 8px;
+    cursor: pointer;
 
     &:hover {
       color: #409EFF;
@@ -21,10 +22,18 @@
   }
 
   & > ul > li > a {
-    font-weight: bold;
+    font-weight: 500;
   }
 
   li > ul {
     padding-left: 14px;
+  }
+  
+}
+
+.markdown-body { 
+  h1, h2, h3, h4, h5, h6 {
+    border-bottom: none;
+    font-weight: 500;
   }
 }

@@ -14,6 +14,7 @@ npm i markdown-lark-doc
 
 ```
 import { MarkdownLarkDoc } from'markdown-lark-doc';
+import index.css from  'markdown-lark-doc/dist/index.css';
 
 const { tocHtml, mdHtml } = transformMarkdown(markdownContent);
 
@@ -22,6 +23,8 @@ const { tocHtml, mdHtml } = transformMarkdown(markdownContent);
 // 插入到你想放的容器就可以了
 ```
 
+>   注意：请确保引入 index.css 文件。
+
 ## 效果预览
 
-
+<img src="./preview.gif" />
